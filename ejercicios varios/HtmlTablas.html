@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="autor" content="JDC" />
+    <meta name="description" content="Primera tabla" />
+    <meta name="keywords" content="html5, tabla" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>TABLA</h1>
+    <table border="1">
+      <caption>
+        Factura detallada
+      </caption>
+      <thead>
+      <tr>
+        <th colspan=5"">Extremeña de telefonos</th>
+      </tr>
+      <tr>
+        <th colspan=5"">Detalle de coutas</th>
+      </tr>
+      <tr>
+        <th  scope="col" >Periodo</th>
+        <th scope="col" colspan="2">concepto</th>
+        <th  scope="col" >Importe</th>
+        <th  scope="col" >descuento</th>
+    </thead>
+    <tfoot>
+       <tr><td colspan="5">Esta factura se pasará a cobro el día ....</td></tr> 
+    </tfoot>
+    <tbody>
+            <tr>
+                    <td rowspan="3">Celda1</td>
+                    <td colspan="2">Celda2</td>
+                    <td>Celda3</td>
+                    <td>Celda3</td>
+            </tr>
+            <tr>
+            
+                <td colspan="2">Celda2</td>
+                <td>Celda3</td>
+                <td>Celda3</td>
+        </tr>
+        <tr>
+            
+            <td colspan="2">Celda2</td>
+            <td>Celda3</td>
+            <td>Celda3</td>
+        </tr>
+        <tr>
+            <td colspan="3">Total</td>
+            <td colspan="2">36 euros</td>
+        </tr>
+    </tbody>
+    <thead>
+      <tr>
+        <th colspan="5">
+       Detalle de coutas
+      </th>
+      </tr>
+      <tr>
+        <th  scope="col" id="concepto" >concepto</th>
+        <th scope="col"id="llamadas">llamadas</th>
+        <th  scope="col" id="duracion">duracion</th>
+        <th  scope="col" id="importe" >importe</th> 
+        <th  scope="col"id="descuento">descuento</th>
+    </thead>
+    </thead>
+    <tbody>
+          <tr>
+            <td headers="concepto">Celda1</td>
+            <td headers="llamadas">Celda2</td>
+            <td headers="duración">Celda3</td>        
+            <td headers="importe">Celda2</td>
+            <td headers="descuento">Celda3</td>
+          </tr>
+          <tr>
+            <td headers="concepto">Celda1</td>
+            <td headers="llamadas">Celda2</td>
+            <td headers="duración">Celda3</td>        
+            <td headers="importe">Celda2</td>
+            <td headers="descuento">Celda3</td>
+          </tr>
+          <tr>
+            <td colspan="3">Total</td>
+            <td colspan="2">36 euros</td>
+        </tr>
+    </tbody>
+    </table>
+  </body>
+</html>

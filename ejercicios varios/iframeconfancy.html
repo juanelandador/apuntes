@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/fancy/style.css" />
+    <script src="js/fancy/jquery-1.4.3.min.js"></script>
+    <script src="js/jquery-3.6.3.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".iframe").fancybox({
+          width: "90%",
+          height: "90%",
+          titlePosition: "outside",
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div ud="principal">
+      <h1>Links con Fancy</h1>
+      <ul>
+        <li>
+          <a class="iframe" id="a1" href="https://www.pildorasinformaticas.es/"
+            >Píldoras informáticas</a
+          >
+        </li>
+        <li>
+          <a class="iframe" id="a2" href="https://www.marca.com/"
+            >Diario MARCA</a
+          >
+        </li>
+        <li>
+          <a class="iframe" id="a3" href="https://as.com/">Diario as</a>
+        </li>
+        <li>
+          <a class="iframe" id="a4" href="https://www.mundodeportivo.com/"
+            >Mundo deportivo</a
+          >
+        </li>
+        <li>
+          <a class="iframe" id="a5" href="https://www.espn.com/nba/">NBA</a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
