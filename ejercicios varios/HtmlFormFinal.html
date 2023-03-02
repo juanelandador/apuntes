@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="copyright" content="" />
+    <meta name="author" content="" />
+    <meta name="rating" content="general" />
+    <meta name="robots" content="all" />
+
+    <title>HTML Boton Form()</title>
+
+    <!--  <link
+      rel="stylesheet"
+      href=""
+      type="text/css"
+      media="screen, projection"
+    />
+
+    <script
+      language="javascript"
+      type="text/javascript"
+      src=""
+    ></script>
+
+    <script>
+      $(document).ready(function () {});
+    </script> -->
+  </head>
+
+  <body>
+    <h1>Cuestionarios de cine</h1>
+
+    <div id="contenedor">
+      <form action="#" method="post" id="formcinegusto">
+        <fieldset id="datospersonales">
+          <legend>Datos personales</legend>
+
+          <label for="nombre">Escribe tu nombre:</label><br />
+          <input type="text" name="nombre" id="nombre" /><br />
+
+          <label for="apellido">Escribe tus apellidos:</label><br />
+          <input type="text" name="apellido" id="apellido" /><br />
+
+          <label for="dni">Escribe tu DNI:</label><br />
+          <input type="text" name="dni" id="dni" maxlength="9" /><br />
+
+          <label for="edad">Escribe tu edad:</label><br />
+          <input
+            type="number"
+            name="edad"
+            id="edad"
+            maxlength="2"
+            size="2"
+            min="4"
+            max="99"
+          /><br />
+
+          <label for="sexo">Selecciona tu sexo:</label><br />
+          <select name="sexo" id="sexo">
+            <option value="nocontesta">x</option>
+            <option value="hombre">Hombre</option>
+            <option value="hombre">Mujer</option>
+          </select>
+        </fieldset>
+
+        <fieldset id="mejorpeli">
+          <legend>Mejor Película</legend>
+
+          <p>
+            <input
+              type="radio"
+              name="mejorpeli"
+              id="radiobutonpel1"
+              value="Star War"
+            /><label for="mejorpeli1">Star War</label>
+          </p>
+
+          <p>
+            <input
+              type="radio"
+              name="mejorpeli"
+              id="radiobutonpel2"
+              value="El quinto elemento"
+            />
+            <label for="mejorpeli2">El quinto elemento</label>
+          </p>
+
+          <p>
+            <input
+              type="radio"
+              name="mejorpeli"
+              id="radiobutonpel3"
+              value="Valentine y los mil planetas"
+            />
+            <label for="mejorpeli3">Valentine y los mil planetas</label>
+          </p>
+        </fieldset>
+
+        <fieldset id="pelivista">
+          <legend>Selecciona las películas que hayas visto</legend>
+          <p>
+            <input
+              type="checkbox"
+              id="checkboxpelivista1"
+              value="Avatar"
+            /><label for="checkboxpelivista1">Avatar</label>
+          </p>
+          <p>
+            <input
+              type="checkbox"
+              id="checkboxpelivista2"
+              value="Basureros espaciales"
+            /><label for="checkboxpelivista2">Basureros espaciales</label>
+          </p>
+          <p>
+            <input
+              type="checkbox"
+              id="checkboxpelivista3"
+              value="Solaris"
+            /><label for="checkboxpelivista3">Solaris</label>
+          </p>
+          <p>
+            <input
+              type="checkbox"
+              id="checkboxpelivista4"
+              value="Alien"
+            /><label for="checkboxpelivista4">Alien</label>
+          </p>
+          <p>
+            <input
+              type="checkbox"
+              id="checkboxpelivista5"
+              value="Matrix"
+            /><label for="checkboxpelivista5">Matrix</label>
+          </p>
+        </fieldset>
+        <fieldset id="argumentopeli">
+          <legend>Argumento de tu Película preferida</legend>
+          <textarea
+            name="argumento"
+            id="argumentotex"
+            cols="0"
+            rows="10"
+          ></textarea>
+        </fieldset>
+        <input type="reset" class="button" id="reset" value="Borrar datos" />
+        <input type="submit" class="button" id="submit" value="Enviar" />
+      </form>
+    </div>
+  </body>
+</html>

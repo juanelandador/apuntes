@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="copyright" content="" />
+    <meta name="author" content="" />
+    <meta name="rating" content="general" />
+    <meta name="robots" content="all" />
+
+    <title>HTML Boton Form()</title>
+
+    <!--  <link
+      rel="stylesheet"
+      href=""
+      type="text/css"
+      media="screen, projection"
+    />
+
+    <script
+      language="javascript"
+      type="text/javascript"
+      src=""
+    ></script>
+
+    <script>
+      $(document).ready(function () {});
+    </script> -->
+  </head>
+
+  <body>
+    <h1>HTML Boton Form</h1>
+
+    <div id="contenedor"></div>
+    <form action="" method="post" enctype="multipart/form-data">
+      <p>
+        <label for="button">Botón de tipo <em>Button</em></label>
+        <br />
+        <input type="button" value="aceptar" id="button" />
+      </p>
+
+      <p>
+        <label for="file">Botón de tipo <em>File</em></label>
+        <br />
+        <input type="file" id="file" />
+      </p>
+      <p>
+        <label for="image">Botón de tipo <em>Imagen</em></label>
+        <br />
+        <input type="image" id="Image" src="" />
+      </p>
+      <p>
+        <label for="reset">Botón de tipo <em>Reset</em></label>
+        <br />
+        <input type="reset" id="reset" value="Limpiar todos los campos" />
+      </p>
+      <p>
+        <label for="submit">Botón de tipo <em>submit</em></label>
+        <br />
+        <input type="submit" id="reset" value="Enviar datos" />
+      </p>
+    </form>
+
+    <form action="#" method="”post”">
+      <p>
+        <label for="lang"
+          >Escoge los lenguajes de programación que mas te gustan</label
+        >
+      </p>
+      <select name="lenguajes" id="lang" size="11" multiple>
+        <optgroup id="primernivel" label="Lenguajes dirigidos a objeto">
+          <option value="javascript">JavaScript</option>
+          <option value="php">PHP</option>
+        </optgroup>
+        <optgroup id="generales" label="Lenguajes generales">
+          <option value="java">Java</option>
+          <option value="golang">Golang</option>
+          <option value="python">Python</option>
+          <option value="c#">C#</option>
+          <option value="C++">C++</option>
+          <option value="erlang">Erlang</option>
+        </optgroup>
+      </select>
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>

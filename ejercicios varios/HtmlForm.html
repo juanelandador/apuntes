@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <form action="" method="get">
+      <p>
+        <label for="name" name="nombre">Nombre</label
+        ><input type="text" id="name" />
+      </p>
+      <p>
+        <label for="email" name="email">Correo electrónico</label
+        ><input type="email" id="email" />
+      </p>
+      <p>
+        <label for="url" name="url">URL</label
+        ><input
+          type="url"
+          id="url"
+          placeholder="Escribe aquí la URL de tu página"
+        />
+      </p>
+      <p>
+        <label for="fecha" name="fecha">Fecha:</label
+        ><input type="date" id="date" />
+      </p>
+      <p>
+        <label for="time" name="time">Hora:</label
+        ><input type="time" id="time" />
+      </p>
+      <p>
+        <label for="fechahora" name="fechahora">Fecha y hora:</label
+        ><input type="datetime-local" id="fechahora" />
+      </p>
+      <p>
+        <label for="mes" name="mes">Mes:</label><input type="month" id="mes" />
+      </p>
+      <p>
+        <label for="semana" name="semana">Semana:</label
+        ><input type="week" id="semana" />
+      </p>
+      <p>
+        <label for="numero" name="numero">Número (min -10,max 10):</label
+        ><input type="number" id="numero" min="-10" max="10" />
+      </p>
+      <p>
+        <label for="tel" name="tel">Teléfono:</label
+        ><input type="tel" id="tel" />
+      </p>
+      <p>
+        <label for="search" name="searh">Término de búsqueda:</label
+        ><input type="search" id="search" />
+      </p>
+      <p>
+        <label for="color" name="color">Color favorito</label
+        ><input type="color" id="color" />
+      </p>
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
